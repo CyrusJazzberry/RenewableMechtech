@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Renewable Mechtech</name>
+  <author>CyrusJazzberry</author>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <packageId>Jazzberry.RenewableMechtech</packageId>
+  <description>Adds new research and recipes for crafting mechtech chips and other mechanitor goods.
+  </description>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+</ModMetaData>
