@@ -9,7 +9,7 @@
   <ResearchProjectDef ParentName="MechtechBase">
     <defName>StandardMechchips</defName>
     <label>standard mechtheory</label>
-    <description>Craft signal chips, subcore shells, and standard subcores.</description>
+    <description>Craft signal chips, printmolds, and standard subcores.</description>
     <baseCost>1750</baseCost>
     <researchViewX>0.00</researchViewX>
     <researchViewY>2.00</researchViewY>

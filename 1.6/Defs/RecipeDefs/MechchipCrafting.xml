@@ -13,7 +13,7 @@
     </recipeUsers>
     <researchPrerequisite>StandardMechchips</researchPrerequisite>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>15000</workAmount>
+    <workAmount>25000</workAmount>
     <unfinishedThingDef>UnfinishedSignalChip</unfinishedThingDef>
     <ingredients>
       <li>
@@ -76,7 +76,7 @@
     </recipeUsers>
     <researchPrerequisite>HighMechchips</researchPrerequisite>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>20000</workAmount>
+    <workAmount>45000</workAmount>
     <unfinishedThingDef>UnfinishedPowerfocusChip</unfinishedThingDef>
     <ingredients>
       <li>
@@ -142,7 +142,7 @@
     </recipeUsers>
     <researchPrerequisite>UltraMechchips</researchPrerequisite>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>25000</workAmount>
+    <workAmount>65000</workAmount>
     <unfinishedThingDef>UnfinishedNanostructuringChip</unfinishedThingDef>
     <ingredients>
       <li>

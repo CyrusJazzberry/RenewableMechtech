@@ -13,7 +13,7 @@
     </recipeUsers>
     <researchPrerequisite>StandardMechchips</researchPrerequisite>
     <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>6000</workAmount>
+    <workAmount>8000</workAmount>
     <unfinishedThingDef>UnfinishedSubcorePrintmold</unfinishedThingDef>
     <ingredients>
       <li>
@@ -60,14 +60,14 @@
     <label>make standard subcore</label>
     <description>Make a standard subcore.</description>
     <jobString>Making standard subcore.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
+    <workSpeedStat>SubcoreEncodingSpeed</workSpeedStat>
     <recipeUsers>
-      <li>FabricationBench</li>
+      <li>SubcoreEncoder</li>
     </recipeUsers>
+    <mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>
     <researchPrerequisite>StandardMechchips</researchPrerequisite>
-    <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>10000</workAmount>
+    <soundWorking>SubcoreEncoder_Working</soundWorking>
+    <workAmount>65000</workAmount>
     <unfinishedThingDef>UnfinishedSubcoreRegular</unfinishedThingDef>
     <ingredients>
       <li>
@@ -126,14 +126,14 @@
     <label>make high subcore</label>
     <description>Make a high subcore.</description>
     <jobString>Making high subcore.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
+    <workSpeedStat>SubcoreEncodingSpeed</workSpeedStat>
     <recipeUsers>
-      <li>FabricationBench</li>
+      <li>SubcoreEncoder</li>
     </recipeUsers>
+    <mechanitorOnlyRecipe>true</mechanitorOnlyRecipe>
     <researchPrerequisite>HighMechchips</researchPrerequisite>
-    <soundWorking>Recipe_Machining</soundWorking>
-    <workAmount>12500</workAmount>
+    <soundWorking>SubcoreEncoder_Working</soundWorking>
+    <workAmount>200000</workAmount>
     <unfinishedThingDef>UnfinishedSubcoreHigh</unfinishedThingDef>
     <ingredients>
       <li>
@@ -183,6 +183,71 @@
     <workSkill>Crafting</workSkill>
     <skillRequirements>
       <Crafting>12</Crafting>
+    </skillRequirements>
+    <displayPriority>0</displayPriority>
+  </RecipeDef>
+  
+  <RecipeDef MayRequire="vanillaracesexpanded.android">
+    <defName>Make_PersonaSubcore</defName>
+    <label>make persona subcore</label>
+    <description>Make a persona subcore.</description>
+    <jobString>Making persona subcore.</jobString>
+    <workSpeedStat>SubcoreEncodingSpeed</workSpeedStat>
+    <recipeUsers>
+      <li>SubcoreEncoder</li>
+    </recipeUsers>
+    <researchPrerequisite>HighMechchips</researchPrerequisite>
+    <soundWorking>SubcoreEncoder_Working</soundWorking>
+    <workAmount>500000</workAmount>
+    <unfinishedThingDef>UnfinishedPersonaSubcore</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SubcorePrintmold</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>2.8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SubcorePrintmold</li>
+        <li>Steel</li>
+        <li>Gold</li>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VREA_PersonaSubcore>1</VREA_PersonaSubcore>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>14</Crafting>
     </skillRequirements>
     <displayPriority>0</displayPriority>
   </RecipeDef>
