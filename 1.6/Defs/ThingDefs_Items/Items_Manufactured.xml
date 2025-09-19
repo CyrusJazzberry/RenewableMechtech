@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SubcorePrintmold</defName>
+    <label>subcore printmold</label>
+    <description>An electronic shell, prepared to house subcore components. While specialized machinery offers the best results and is much more time efficient, many independent mechanitors result to jury-rigging their tech.</description>
+    <graphicData>
+      <drawSize>0.85</drawSize>
+      <texPath>Things/Item/Resource/SubcorePrintmold</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>10</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>125</MarketValue>
+      <Mass>1</Mass>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  
+</Defs>

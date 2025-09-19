@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+
+	<Operation Class="PatchOperationSequence">
+	
+		<operations>
+			
+			<li Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Mechanoid"> 
+				<xpath>/Defs</xpath>
+				<value>
+		
+						<ItemProcessor.CombinationDef>
+							<defName>VFEM_VersatileAssembler_SubcorePrintmold</defName>
+							<building>VFEM_VersatileAssembler</building>
+							<items>
+								<li>SubcoreBasic</li>
+							</items>	
+							<secondItems>
+								<li>ComponentIndustrial</li>
+							</secondItems>
+							<thirdItems>
+								<li>Steel</li>
+							</thirdItems>
+							<amount>
+								<li>1</li>
+								<li>1</li>
+								<li>15</li>
+							</amount>
+							<outputLimitControlled>true</outputLimitControlled>
+							<maxTotalOutput>10</maxTotalOutput>
+							<result>SubcorePrintmold</result>	
+							<yield>1</yield>		
+							<useQualityIncreasing>false</useQualityIncreasing>
+							<singleTimeIfNotQualityIncreasing>0.2</singleTimeIfNotQualityIncreasing>
+						</ItemProcessor.CombinationDef>
+					
+				</value>
+			</li>
+
+		</operations>
+		
+	</Operation>
+	
+
+</Patch>

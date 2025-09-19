@@ -4,6 +4,7 @@
   <author>CyrusJazzberry</author>
   <supportedVersions>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   <packageId>Jazzberry.RenewableMechtech</packageId>
   <description>Adds new research and recipes for crafting mechtech chips and other mechanitor goods.
@@ -11,5 +12,6 @@
   <loadAfter>
     <li>Ludeon.RimWorld</li>
     <li>Ludeon.RimWorld.Biotech</li>
+	<li>OskarPotocki.VFE.Mechanoid</li>
   </loadAfter>
 </ModMetaData>

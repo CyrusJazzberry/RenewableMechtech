@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+
+	<Operation Class="PatchOperationSequence">
+	
+		<operations>
+			
+			<li Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Mechanoid"> 
+				<xpath>/Defs</xpath>
+				<value>
+		
+					<ItemProcessor.CombinationDef>
+						<defName>VFEM_ElectronicsFabricationFactory_AdvancedAssembler_SubcoreRegular</defName>
+						<building>VFEM_ElectronicsFabricationFactory_AdvancedAssembler</building>
+						<items>
+							<li>SubcorePrintmold</li>
+						</items>	
+						<secondItems>
+							<li>ComponentIndustrial</li>
+						</secondItems>
+						<thirdItems>
+							<li>Steel</li>
+						</thirdItems>
+						<fourthItems>
+							<li>Gold</li>
+						</fourthItems>
+						<amount>
+							<li>1</li>
+							<li>2</li>
+							<li>15</li>
+							<li>4</li>
+						</amount>
+						<outputLimitControlled>true</outputLimitControlled>
+						<maxTotalOutput>10</maxTotalOutput>
+						<result>SubcoreRegular</result>	
+						<yield>1</yield>		
+						<useQualityIncreasing>false</useQualityIncreasing>
+						<singleTimeIfNotQualityIncreasing>0.4</singleTimeIfNotQualityIncreasing>
+					</ItemProcessor.CombinationDef>
+
+					<ItemProcessor.CombinationDef>
+						<defName>VFEM_ElectronicsFabricationFactory_AdvancedAssembler_SubcoreHigh</defName>
+						<building>VFEM_ElectronicsFabricationFactory_AdvancedAssembler</building>
+						<items>
+							<li>SubcorePrintmold</li>
+						</items>	
+						<secondItems>
+							<li>ComponentSpacer</li>
+						</secondItems>
+						<thirdItems>
+							<li>Steel</li>
+						</thirdItems>
+						<fourthItems>
+							<li>Gold</li>
+						</fourthItems>
+						<amount>
+							<li>1</li>
+							<li>1</li>
+							<li>15</li>
+							<li>8</li>
+						</amount>
+						<outputLimitControlled>true</outputLimitControlled>
+						<maxTotalOutput>10</maxTotalOutput>
+						<result>SubcoreHigh</result>	
+						<yield>1</yield>		
+						<useQualityIncreasing>false</useQualityIncreasing>
+						<singleTimeIfNotQualityIncreasing>0.6</singleTimeIfNotQualityIncreasing>
+					</ItemProcessor.CombinationDef>
+					
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd" MayRequire="OskarPotocki.VFE.Mechanoid,vanillaracesexpanded.android"> 
+				<xpath>/Defs</xpath>
+				<value>
+		
+					<ItemProcessor.CombinationDef>
+						<defName>VFEM_ElectronicsFabricationFactory_AdvancedAssembler_VREA_PersonaSubcore</defName>
+						<building>VFEM_ElectronicsFabricationFactory_AdvancedAssembler</building>
+						<items>
+							<li>SubcorePrintmold</li>
+						</items>	
+						<secondItems>
+							<li>ComponentSpacer</li>
+						</secondItems>
+						<thirdItems>
+							<li>Steel</li>
+						</thirdItems>
+						<fourthItems>
+							<li>Gold</li>
+						</fourthItems>
+						<amount>
+							<li>1</li>
+							<li>2</li>
+							<li>25</li>
+							<li>16</li>
+						</amount>
+						<outputLimitControlled>true</outputLimitControlled>
+						<maxTotalOutput>10</maxTotalOutput>
+						<result>VREA_PersonaSubcore</result>	
+						<yield>1</yield>		
+						<useQualityIncreasing>false</useQualityIncreasing>
+						<singleTimeIfNotQualityIncreasing>0.8</singleTimeIfNotQualityIncreasing>
+					</ItemProcessor.CombinationDef>
+					
+				</value>
+			</li>
+
+		</operations>
+		
+	</Operation>
+	
+
+</Patch>
